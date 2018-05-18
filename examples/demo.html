@@ -34,7 +34,7 @@
 		<script type="text/javascript" src="../dist/spiceui.mobIScroll.js"></script>
 		<script>
 			// 请选择性别
-			$.spice.mobIScroll('.e-spice-1', {
+			$.spice.MobIScroll('.e-spice-1', {
 				customWheels: [
 					{
 						0: {
@@ -52,7 +52,7 @@
 			});
 
 	        // 请选择省市区
-			$.spice.mobIScroll('.e-spice-2', {
+			$.spice.MobIScroll('.e-spice-2', {
 				customWheels: {
 					0: {
 						1: '北京'
@@ -76,7 +76,7 @@
 			});
 
 			// 省市区默认选中 上海 徐汇区
-			$.spice.mobIScroll('.e-spice-3', {
+			$.spice.MobIScroll('.e-spice-3', {
 				customWheels: {
 					0: {
 						1: '北京'
@@ -101,7 +101,7 @@
 			});
 
 			// preset: date
-			$.spice.mobIScroll('.e-spice-4', {
+			$.spice.MobIScroll('.e-spice-4', {
 				preset: 'date'
 				, onSelect: function(valueText, inst){
 					$('.e-spice-4').html( valueText );
@@ -109,7 +109,7 @@
 			});
 
 			// preset: time
-			$.spice.mobIScroll('.e-spice-5', {
+			$.spice.MobIScroll('.e-spice-5', {
 				preset: 'time'
 				, onSelect: function(valueText, inst){
 					$('.e-spice-5').html( valueText );
@@ -117,7 +117,7 @@
 			});
 
 			// preset: datetime
-			$.spice.mobIScroll('.e-spice-6', {
+			$.spice.MobIScroll('.e-spice-6', {
 				preset: 'datetime'
 				, onSelect: function(valueText, inst){
 					$('.e-spice-6').html( valueText );

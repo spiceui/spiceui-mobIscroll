@@ -2226,7 +2226,7 @@ var MobIScroll = function MobIScroll(selector, options) {
 	return rtn;
 };
 
-$.spice.mobIScroll = MobIScroll;
+$.spice.MobIScroll = MobIScroll;
 
 module.exports = MobIScroll;
 

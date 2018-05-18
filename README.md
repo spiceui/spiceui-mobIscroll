@@ -12,14 +12,14 @@
 
 将插件引入页面，执行以下代码：
 
-    $.spice.mobIScroll('.e-spice-mobiscroll');
+    $.spice.MobIScroll('.e-spice-mobiscroll');
 
 之后页面就可以看到相应的下拉效果了，只是还没有数据。
 
 #### 移动端下拉效果参数  
 定义下拉效果时，可以通过传递参数来实现多种不同的下拉效果，如
 
-    $.spice.mobIScroll('.e-spice-mobiscroll', {
+    $.spice.MobIScroll('.e-spice-mobiscroll', {
         //write your options here
     });
 
@@ -90,7 +90,7 @@ i18n参数：
 #### 移动端下拉效果方法  
 有特殊需求时，可根据常用方法自定义下拉效果
 
-    var mobiscroll = $.spice.mobIScroll('.e-spice-mobiscroll');;
+    var mobiscroll = $.spice.MobIScroll('.e-spice-mobiscroll');;
     mobiscroll.fn();
 
 获取方法有两种方式，第一种是根据变量`mobiscroll.fn()`，第二种是通过选择器`$('.e-spice-mobiscroll').data('spice.mobIScroll').fn()`
@@ -110,7 +110,7 @@ i18n参数：
 
 ##### 性别选择下拉效果，自定义输出数据  
 
-    var mobiscroll = $.spice.mobIScroll('.e-spice-mobiscroll', {
+    var mobiscroll = $.spice.MobIScroll('.e-spice-mobiscroll', {
             customWheels: [
                 {
                     0: {
@@ -126,7 +126,7 @@ i18n参数：
 
 ##### 省市选择下拉效果，自定义输出数据、数据开始位置、联动列数和省市方法插件
 
-    var mobiscroll = $.spice.mobIScroll('.e-spice-mobiscroll', {
+    var mobiscroll = $.spice.MobIScroll('.e-spice-mobiscroll', {
             customWheels: {
                 0: {
                     1: '北京'
