@@ -1,11 +1,26 @@
 {
-  "name": "SpiceUI-mobIscroll",
+  "name": "spiceui-mobiscroll",
   "version": "1.0.0",
   "description": "基于mobIscroll插件扩展的一些插件",
   "scripts": {
     "pro": "export NODE_ENV=production&&webpack --watch --colors",
     "dev": "export NODE_ENV=develop&&webpack --watch --colors"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spiceui/spiceui-mobIscroll.git"
+  },
+  "keywords": [
+    "css", "sass", "responsive", "front-end", "ui", "web"
+  ],
+  "main": "dist/spiceui.mobIScroll.min.js",
+  "style": "dist/spiceui.mobIScroll.min.css",
+  "files": [
+    "dist/spiceui.mobIScroll.js",
+    "dist/spiceui.mobIScroll.min.js",
+    "dist/spiceui.mobIScroll.css",
+    "dist/spiceui.mobIScroll.min.css"
+  ],
   "devDependencies": {
     "autoprefixer": "^8.5.0",
     "babel-core": "^6.26.0",
@@ -21,5 +36,11 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^2.3.2"
-  }
+  },
+  "author": "spiceui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spiceui/spiceui-mobIscroll/issues"
+  },
+  "homepage": "https://github.com/spiceui/spiceui-mobIscroll#readme"
 }
