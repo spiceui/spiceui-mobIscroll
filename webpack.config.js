@@ -9,7 +9,7 @@ let config = {}
 
 // 基本配置
 config.entry = {
-	'spiceui.mobIScroll': './src/mobIScroll.js'
+	'spiceui-mobIScroll': './src/mobIScroll.js'
 }
 
 config.output = {
@@ -35,7 +35,7 @@ if( PRO ){
 	miniCSS = true;
 
 	config.entry = {
-		'spiceui.mobIScroll.min': './src/mobIScroll.js'
+		'spiceui-mobIScroll.min': './src/mobIScroll.js'
 	}
 
 	config.plugins = config.plugins.concat([

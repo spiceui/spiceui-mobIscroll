@@ -13,8 +13,8 @@
   "keywords": [
     "html", "javascript", "mobile", "scroller", "ui", "web"
   ],
-  "main": "dist/spiceui.mobIScroll.min.js",
-  "style": "dist/spiceui.mobIScroll.min.css",
+  "main": "dist/spiceui-mobIScroll.min.js",
+  "style": "dist/spiceui-mobIScroll.min.css",
   "devDependencies": {
     "autoprefixer": "^8.5.0",
     "babel-core": "^6.26.0",
